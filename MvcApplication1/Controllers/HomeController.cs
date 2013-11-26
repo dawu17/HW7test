@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 
-namespace IS445.Controllers
+namespace MvcApplication1.Controllers
 {
     public class HomeController : Controller
     {

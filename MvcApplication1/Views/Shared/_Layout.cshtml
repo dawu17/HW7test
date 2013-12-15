@@ -16,17 +16,17 @@
 		<div id="menu">
             <style scoped>
                 *{margin: 0; padding: 0;}
-                #menu{width:700px; margin: 0 auto; background-color: orange; height:20px;}
+                #menu{width:700px; margin: 0 auto; background-color: orange; height:20px; z-index:3;}
                 #menu ul{list-style-type:none;}
                 #menu ul li{float: left; position: relative;}
                 #menu ul li:hover{background-color: lightblue;}
-                #menu ul li a{color: #fff; padding: 0 20px; line-height:20px; font-size:11px; font-family:arial; display: block; text-decoration:none;}
+                #menu ul li a{z-index:3; color: #fff; padding: 0 20px; line-height:20px; font-size:11px; font-family:arial; display: block; text-decoration:none;}
                 #menu ul li a:hover{background-color: lightblue;}
                 #menu ul li ul li{float: none; position: relative;}
-                #menu ul li ul{position: absolute; top:20px; left:0; display: none; background-color: grey; width:150px;}
+                #menu ul li ul{z-index:3; position: absolute; top:20px; left:0; display: none; background-color: grey; width:150px;}
                 #menu ul li:hover > ul{display: block;}
                 #menu ul li ul li a{white-space: nowrap; line-height:20px;}
-                #menu ul li ul li ul{position: absolute; top:0; left:145px; display: none; background-color: grey; width:150px;}
+                #menu ul li ul li ul{z-index:3; position: absolute; top:0; left:150px; display: none; background-color: grey; width:150px;}
             </style>
 			
             <ul style="margin:20px 20px">
@@ -36,16 +36,16 @@
 						<li>@Html.ActionLink("Web Form Demo", "WebForm")</li>
 						<li><a href="#">Layout Demo</a>
                             <ul>
-                                <li><a href="#">Absolute Layout</a></li>
-                                <li><a href="#">Static Layout</a></li>
-                                <li><a href="#">Float Layout</a></li>
+                                <li>@Html.ActionLink("Absolute Layout", "Absolute")</li>
+                                <li>@Html.ActionLink("Static Layout", "Staticblock")</li>
+                                <li>@Html.ActionLink("Float Layout", "floatblock")</li>
                             </ul>
 						</li>
 					</ul>
 				</li>
 				<li><a href="#">ClientSide Demos</a></li>
-                <li>@Html.ActionLink("ServerSide Demos", "ServersideDemo")</a></li>
-				<li>@Html.ActionLink("About Myself", "Aboutme")</a></li>
+                <li>@Html.ActionLink("ServerSide Demos", "ServersideDemo")</li>
+				<li>@Html.ActionLink("About Myself", "Aboutme")</li>
 			</ul>
 		</div>
 

@@ -1,0 +1,51 @@
+﻿body {
+    text-align: center;
+    width:680px;
+    margin-left :auto;
+    margin-right:auto;
+    font-family :Calibri;
+}
+
+
+Header Strong
+{
+    font-size: 22px;
+    font-family:'Times New Roman';
+}
+
+article
+{
+    background-color :lightgrey;
+    width:450px;
+    height:200px;
+    position:static;
+}
+
+
+section
+{
+    background-color :aliceblue;
+    width:450px;
+    height:50px;
+    margin-bottom:1em;
+    position:static;
+}
+
+
+aside
+{
+    background-color:lightcyan;
+    width:230px;
+    height:200px; 
+    
+    
+}
+
+
+footer
+{
+    background-color :lightblue;
+    width:680px;
+    position:static;
+}
+

@@ -191,7 +191,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content2\css\absolute.css" />
+    <Content Include="content2\css\bootstrap.css" />
+    <Content Include="content2\css\float.css" />
     <Content Include="content2\css\menucss.css" />
+    <Content Include="content2\css\relative.css" />
+    <Content Include="content2\css\reset.css" />
+    <Content Include="content2\css\static.css" />
     <Content Include="content2\css\styles.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -261,6 +267,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jsReword.js" />
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
@@ -312,6 +319,10 @@
     <Content Include="Views\Home\Aboutme.cshtml" />
     <Content Include="Views\Home\ServerSideDemo.cshtml" />
     <Content Include="Views\Home\FormatPhoneNumber.cshtml" />
+    <Content Include="Views\Home\Absolute.cshtml" />
+    <Content Include="Views\Home\GetinputPage.cshtml" />
+    <Content Include="Views\Home\staticblock.cshtml" />
+    <Content Include="Views\Home\floatblock.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

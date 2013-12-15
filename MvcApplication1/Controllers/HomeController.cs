@@ -32,6 +32,22 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        public ActionResult Absolute()
+        {
+            return View();
+        }
+
+        public ActionResult floatblock()
+        {
+            return View();
+        }
+
+        public ActionResult staticblock()
+        {
+            return View();
+        }
+
+
         public ActionResult FormatPhoneNumber(string inputNumber)
         {
 

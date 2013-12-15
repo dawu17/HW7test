@@ -1,0 +1,54 @@
+﻿body {
+    text-align: center;
+    width:680px;
+    margin-left :auto;
+    margin-right:auto;
+    font-family :Calibri;
+}
+
+article
+{
+    background-color :lightgrey;
+    width:450px;
+    height:200px;
+    float:left;
+}
+
+
+section
+{
+    background-color :aliceblue;
+    width:450px;
+    height:50px;
+    float:left;
+    margin-bottom:1em;
+}
+
+
+aside
+{
+    background-color:lightcyan;
+    width:230px;
+    height:200px;
+    left:450px;
+    top:-200px;
+    float:left;
+
+}
+
+Header Strong
+{
+    font-size: 22px;
+    font-family:'Times New Roman';
+}
+
+
+footer
+{
+    background-color :lightblue;
+    width:680px;
+    float:left;
+    top:-200px;
+}
+
+

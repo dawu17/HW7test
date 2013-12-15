@@ -1,0 +1,71 @@
+﻿body
+{
+    text-align: center;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    position: absolute;
+    left: 25%;
+}
+
+
+article
+{
+    background-color :lightgrey;
+    width:450px;
+    height:200px;
+    position:absolute;
+    top:70px;
+    z-index:0;
+}
+
+
+section
+{
+    background-color :aliceblue;
+    width:450px;
+    height:50px;
+    position:absolute;
+    margin-bottom:1em;
+    top:120px;
+    z-index:0;
+}
+
+#sec2
+{
+    background-color :aliceblue;
+    width:450px;
+    height:50px;
+    position:absolute;
+    margin-bottom:1em;
+    top:90px;
+}
+
+
+aside
+{
+    background-color:lightcyan;
+    width:230px;
+    height:200px;
+    left:450px;
+    top:70px;
+    position :absolute;
+
+}
+
+Header Strong
+{
+    font-size: 22px;
+    font-family:'Times New Roman';
+}
+
+
+footer
+{
+    background-color :lightblue;
+    width:680px;
+    position:absolute;
+    top:270px;
+}
+

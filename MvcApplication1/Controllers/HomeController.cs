@@ -47,6 +47,11 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        public ActionResult GetinputPage()
+        {
+            return View();
+        }
+
 
         public ActionResult FormatPhoneNumber(string inputNumber)
         {

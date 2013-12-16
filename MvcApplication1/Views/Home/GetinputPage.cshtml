@@ -1,16 +1,24 @@
 ﻿@{
-    Layout = null;
+    ViewBag.Title = "GetinputPage";
 }
 
+
+@model string
+
 <!DOCTYPE html>
-<script src="~/Scripts/jsReword.js"></script>
 
-<div>
+<head>
 
-    @using (Html.BeginForm(null,null, FormMethod.Post))
-    {
-    <label for="inputWords">Please input a sentence: </label>
-    <input type="text" name="inputWords" id="inputWords" value=""/>
-    <input type="submit" name="submit" value="submit" onclick="jsReword(this)"/>
-    }
-</div>
+    <script src="~/Scripts/jsReword.js"></script>
+</head>
+
+<body>
+    <div>
+
+            <label for="inputWords">Please input a sentence: </label>
+            <input type="text" name="inputWords" id="inputWords" value=""/>
+            <input type="button" value="submit" onclick="reword()"> </input>
+
+    </div>
+
+    </bod>
